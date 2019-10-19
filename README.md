@@ -1,24 +1,28 @@
-# README
+10401  cd rubyspace
+10402  rails new toy_app
+10406  cd toy_app
+10407  git init
+10408  git status
+10409  git add .
+10410  git commit -m "initial commit"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+10411  git remote add origin https://github.com/xiaoweiruby/toy_app.git
+10412  git push -u origin master
+10413  atom .
 
-* Ruby version
 
-* System dependencies
+```
+移动 gem 'sqlite3'
 
-* Configuration
+group :development, :test do
+  gem 'sqlite3'
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+end
 
-* Database creation
+增加 gem 'pg', '0.18.4'
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+group :production do
+  gem 'pg', '0.18.4'
+end
+```
