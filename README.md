@@ -62,3 +62,7 @@ To https://github.com/xiaoweiruby/toy_app.git
   c32fb6b..69173b4  master -> master
 xiaowei@xiaoweimac ⮀ ~/rubyspace/toy_app ⮀ ⭠ master ⮀ git push heroku master
 ```
+
+https://stackoverflow.com/questions/28021240/rails-tutorial-2-5-2-cant-get-validaiton-exercise-to-work
+
+https://stackoverflow.com/questions/27295860/rails-validate-statement-checking-for-blank-content
